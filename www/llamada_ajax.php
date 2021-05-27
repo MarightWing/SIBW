@@ -2,7 +2,7 @@
     require_once "/usr/local/lib/php/vendor/autoload.php";
 
 
-    $mysqli = new mysqli ("mysql", "Mari", "1999verde", "SIBW");
+    $mysqli = new mysqli ("mysql", "Mari", "tiger", "SIBW");
     if ($mysqli->connect_errno){
         echo ("Fallo al conectar: " . $mysqli->connect_error);
     }
